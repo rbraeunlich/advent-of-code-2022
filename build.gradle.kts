@@ -6,6 +6,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.+")
+}
+
 tasks {
     sourceSets {
         main {
